@@ -1,0 +1,6 @@
+python run_node_classification.py     --rewiring borf     --layer_type GCN    --num_trials 50    --device cuda:0    --borf_batch_add 20    --borf_batch_remove 10     --num_iterations 3    --dataset cora
+python run_node_classification.py     --rewiring borf     --layer_type GCN    --num_trials 50    --device cuda:0    --borf_batch_add 20    --borf_batch_remove 10     --num_iterations 3    --dataset citeseer
+python run_node_classification.py     --rewiring borf     --layer_type GCN    --num_trials 50    --device cuda:0    --borf_batch_add 30    --borf_batch_remove 10     --num_iterations 3    --dataset texas
+python run_node_classification.py     --rewiring borf     --layer_type GCN    --num_trials 50    --device cuda:0    --borf_batch_add 20    --borf_batch_remove 30     --num_iterations 2    --dataset cornell
+python run_node_classification.py     --rewiring borf     --layer_type GCN    --num_trials 50    --device cuda:0    --borf_batch_add 30    --borf_batch_remove 20     --num_iterations 2    --dataset wisconsin
+python run_node_classification.py     --rewiring borf     --layer_type GCN    --num_trials 50    --device cuda:0    --borf_batch_add 20    --borf_batch_remove 20     --num_iterations 3    --dataset chameleon
